@@ -7,5 +7,5 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @CrossOrigin(origins = "*", methods = {RequestMethod.POST})
 public class WebControlador {
-
+    //cambio
 }
