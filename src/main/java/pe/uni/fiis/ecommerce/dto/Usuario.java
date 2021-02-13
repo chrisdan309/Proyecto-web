@@ -8,8 +8,8 @@ public class Usuario {
     private String nombre;
     private String apellido;
     private String email;
-    private Integer telefono;
-    private String contraseña;
+    private String telefono;
+    private String pass;
     private Double dinero;
 
 }

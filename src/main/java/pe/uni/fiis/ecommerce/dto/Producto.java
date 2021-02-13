@@ -1,7 +1,14 @@
 package pe.uni.fiis.ecommerce.dto;
 
-import java.util.List;
+import lombok.Data;
 
+import java.util.List;
+@Data
 public class Producto {
-    List<Juego> juegos;
+    private Integer idProducto;
+    private String titulo;
+    private Double precio;
+    private Double descuento;
+    private String categoria;
+    private String descripcion;
 }
